@@ -1,0 +1,13 @@
+/home/deck/Documents/curso_csharp/bin/Debug/netcoreapp3.1/curso_csharp
+/home/deck/Documents/curso_csharp/bin/Debug/netcoreapp3.1/curso_csharp.deps.json
+/home/deck/Documents/curso_csharp/bin/Debug/netcoreapp3.1/curso_csharp.runtimeconfig.json
+/home/deck/Documents/curso_csharp/bin/Debug/netcoreapp3.1/curso_csharp.runtimeconfig.dev.json
+/home/deck/Documents/curso_csharp/bin/Debug/netcoreapp3.1/curso_csharp.dll
+/home/deck/Documents/curso_csharp/bin/Debug/netcoreapp3.1/curso_csharp.pdb
+/home/deck/Documents/curso_csharp/obj/Debug/netcoreapp3.1/curso_csharp.csprojAssemblyReference.cache
+/home/deck/Documents/curso_csharp/obj/Debug/netcoreapp3.1/curso_csharp.AssemblyInfoInputs.cache
+/home/deck/Documents/curso_csharp/obj/Debug/netcoreapp3.1/curso_csharp.AssemblyInfo.cs
+/home/deck/Documents/curso_csharp/obj/Debug/netcoreapp3.1/curso_csharp.csproj.CoreCompileInputs.cache
+/home/deck/Documents/curso_csharp/obj/Debug/netcoreapp3.1/curso_csharp.dll
+/home/deck/Documents/curso_csharp/obj/Debug/netcoreapp3.1/curso_csharp.pdb
+/home/deck/Documents/curso_csharp/obj/Debug/netcoreapp3.1/curso_csharp.genruntimeconfig.cache
