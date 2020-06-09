@@ -4,6 +4,7 @@ using curso_csharp.Fundamentos;
 using curso_csharp.Fundamentos.Operadores;
 using curso_csharp.EstruturaDeControle;
 using curso_csharp.EstruturaDeControle.EstruturaDeRepeticao;
+using curso_csharp.ClassesEMetodos;
 
 namespace curso_csharp {
     class Program {
@@ -38,6 +39,10 @@ namespace curso_csharp {
                 { "Estrutura Foreach - Estruturas de Repetição", EstruturaForEach.Executar},
                 { "UsandoBreak - Estruturas de Controle", UsandoBreak.Executar},
                 { "UsandoContinue - Estruturas de Controle", UsandoContinue.Executar},
+                // 3 Classes e Métodos
+                { "Membros - Classes e Métodos", Membros.Executar},
+                { "Construtores - Classes e Métodos", Construtores.Executar},
+                { "Métodos Com Retorno - Classes e Métodos", MetodosComRetorno.Executar},
             });
 
             central.SelecionarEExecutar ();
