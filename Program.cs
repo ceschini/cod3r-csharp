@@ -5,9 +5,14 @@ using curso_csharp.Fundamentos.Operadores;
 using curso_csharp.EstruturaDeControle;
 using curso_csharp.EstruturaDeControle.EstruturaDeRepeticao;
 using curso_csharp.ClassesEMetodos;
+using curso_csharp.Colecoes;
+using curso_csharp.OO;
 
 namespace curso_csharp {
     class Program {
+        // string[] args recebe os argumentos passados ao executar o programa no terminal
+        // Ex: Program.cs -o Program -lX11
+        // args[0] = -o, args[1] = Program, args[2] = lX11
         static void Main (string[] args) {
             var central = new CentralDeExercicios (new Dictionary<string, Action> () { 
                 // 1. Fundamentos
@@ -43,6 +48,33 @@ namespace curso_csharp {
                 { "Membros - Classes e Métodos", Membros.Executar},
                 { "Construtores - Classes e Métodos", Construtores.Executar},
                 { "Métodos Com Retorno - Classes e Métodos", MetodosComRetorno.Executar},
+                { "Métodos Estáticos - Classes e Métodos", MetodosEstaticos.Executar},
+                { "Atributos Estáticos - Classes e Métodos", AtributosEstaticos.Executar},
+                { "Desafio Atributo - Classes e Métodos", DesafioAtributo.Executar},
+                { "Params - Classes e Métodos", Params.Executar},
+                { "Parâmetros Nomeados - Classes e Métodos", ParametrosNomeados.Executar},
+                { "Getters & Setters - Classes e Métodos", GetSet.Executar},
+                { "Propriedades - Classes e Métodos", Props.Executar},
+                { "Atributos Readonly - Classes e Métodos", Readonly.Executar},
+                { "Exemplo de Enum - Classes e Métodos", ExemploEnum.Executar},
+                { "Struct - Classes e Métodos", ExemploStruct.Executar},
+                { "Struct Vs Classe - Classes e Métodos", StructVsClasse.Executar},
+                { "Valor Vs Referência - Classes e Métodos", ValorVsReferencia.Executar},
+                { "Parâmetros por Referência - Classes e Métodos", ParametrosPorReferencia.Executar},
+                { "Parâmetros com Valor Padrão - Classes e Métodos", ParametroPadrao.Executar},
+                // Coleções
+                { "Array - Coleções", Colecoes.Array.Executar},
+                { "List - Coleções", ColecoesList.Executar},
+                { "Array List - Coleções", ColecoesArrayList.Executar},
+                { "Set - Coleções", ColecoesSet.Executar},
+                { "Queue - Coleções", ColecoesQueue.Executar},
+                { "Igualdade - Coleções", Igualdade.Executar},
+                { "Stack - Coleções", ColecoesStack.Executar},
+                { "Dictionary - Coleções", ColecoesDictionary.Executar},
+                // Orientação a Objetos
+                { "Herança - Orientação a Objetos", Heranca.Executar},
+                { "Construtor This - Orientação a Objetos", ConstrutorThis.Executar},
+                { "Encapsulamento - Orientação a Objetos", Encapsulamento.Executar},
             });
 
             central.SelecionarEExecutar ();

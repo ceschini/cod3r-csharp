@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mAMiYNplBDj0oXSufivkhlj63ZKIbOOxJV2I6Kq64J3h0M1O60YO1yRTGa1it+WsvPi2gh1kDC5zUkGiOc/4vA==",
+  "success": true,
+  "projectFilePath": "/home/deck/Documents/curso_csharp/Encapsulamento/Encapsulamento.csproj",
+  "expectedPackageFiles": [
+    "/home/deck/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/deck/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
