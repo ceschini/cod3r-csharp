@@ -1,36 +1,61 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Encapsulamento/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Encapsulamento.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Encapsulamento.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Encapsulamento/1.0.0": {
+      "type": "project",
+      "path": "../Encapsulamento/Encapsulamento.csproj",
+      "msbuildProject": "../Encapsulamento/Encapsulamento.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Encapsulamento >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "/home/deck/.nuget/packages/": {}
+    "C:\\Users\\Lucas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/deck/Documents/curso_csharp/curso_csharp.csproj",
+      "projectUniqueName": "C:\\Users\\Lucas\\Documents\\cod3r-csharp\\curso_csharp.csproj",
       "projectName": "curso_csharp",
-      "projectPath": "/home/deck/Documents/curso_csharp/curso_csharp.csproj",
-      "packagesPath": "/home/deck/.nuget/packages/",
-      "outputPath": "/home/deck/Documents/curso_csharp/obj/",
+      "projectPath": "C:\\Users\\Lucas\\Documents\\cod3r-csharp\\curso_csharp.csproj",
+      "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lucas\\Documents\\cod3r-csharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/deck/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Lucas\\Documents\\Encapsulamento\\Encapsulamento.csproj": {
+              "projectPath": "C:\\Users\\Lucas\\Documents\\Encapsulamento\\Encapsulamento.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -56,7 +81,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

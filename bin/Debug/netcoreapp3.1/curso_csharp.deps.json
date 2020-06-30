@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "curso_csharp/1.0.0": {
+        "dependencies": {
+          "Encapsulamento": "1.0.0"
+        },
         "runtime": {
           "curso_csharp.dll": {}
+        }
+      },
+      "Encapsulamento/1.0.0": {
+        "runtime": {
+          "Encapsulamento.dll": {}
         }
       }
     }
   },
   "libraries": {
     "curso_csharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Encapsulamento/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
