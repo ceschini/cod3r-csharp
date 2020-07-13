@@ -7,6 +7,10 @@ using curso_csharp.EstruturaDeControle.EstruturaDeRepeticao;
 using curso_csharp.ClassesEMetodos;
 using curso_csharp.Colecoes;
 using curso_csharp.OO;
+using curso_csharp.MetodosEFuncoes;
+using curso_csharp.Excecoes;
+using curso_csharp.API;
+using curso_csharp.TopicosAvancados;
 
 namespace curso_csharp {
     class Program {
@@ -75,6 +79,32 @@ namespace curso_csharp {
                 { "Herança - Orientação a Objetos", Heranca.Executar},
                 { "Construtor This - Orientação a Objetos", ConstrutorThis.Executar},
                 { "Encapsulamento - Orientação a Objetos", Encapsulamento.Executar},
+                { "Polimorfismo - Orientação a Objetos", Polimorfismo.Executar},
+                { "Abstract - Orientação a Objetos", Abstract.Executar},
+                { "Interface - Orientação a Objetos", Interface.Executar},
+                { "Sealed - Orientação a Objetos", Sealed.Executar},
+                // Métodos e Funções
+                { "Exemplo Lambda - Métodos & Funções", ExemploLambda.Executar},
+                { "Lambdas Como Delegates - Métodos & Funções", LambdasDelegate.Executar},
+                { "Usando Delegates - Métodos & Funções", UsandoDelegates.Executar},
+                { "Delegates Como Função Anonima - Métodos & Funções", DelegateFuncAnonima.Executar},
+                { "Delegates Como Parâmetros - Métodos & Funções", DelegatesComoParametro.Executar},
+                { "Métodos de Extensão - Métodos & Funções", MetodosDeExtensao.Executar},
+                // Exceções
+                { "Primeira Exceção - Exceções", PrimeiraExcecao.Executar},
+                { "Exceções Personalizadas - Exceções", ExcecoesPersonalizadas.Executar},
+                // Usando API
+                { "Primeiro Arquivo - Usando API", PrimeiroArquivo.Executar},
+                { "Lendo Arquivos - Usando API", LendoArquivos.Executar},
+                { "Exemplo FileInfo - Usando API", ExemploFileInfo.Executar},
+                { "Diretórios - Usando API", Diretorios.Executar},
+                { "Exemplo DirectoryInfo - Usando API", ExemploDirectoryInfo.Executar},
+                { "Exemplo Path - Usando API", ExemploPath.Executar},
+                { "Exemplo DateTime - Usando API", ExemploDateTime.Executar},
+                { "Exemplo TimeSpan - Usando API", ExemploTimeSpan.Executar},
+                // Tópicos Avançados
+                { "LINQ 1 - Tópicos Avançados", LINQ1.Executar},
+
             });
 
             central.SelecionarEExecutar ();
