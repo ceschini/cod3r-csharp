@@ -103,7 +103,11 @@ namespace curso_csharp {
                 { "Exemplo DateTime - Usando API", ExemploDateTime.Executar},
                 { "Exemplo TimeSpan - Usando API", ExemploTimeSpan.Executar},
                 // Tópicos Avançados
-                { "LINQ 1 - Tópicos Avançados", LINQ1.Executar},
+                { "LINQ #01 - Tópicos Avançados", LINQ1.Executar},
+                { "LINQ #02 - Tópicos Avançados", LINQ2.Executar},
+                { "Nullables - Tópicos Avançados", Nullables.Executar},
+                { "Dynamics - Tópicos Avançados", Dynamics.Executar},
+                { "Genéricos - Tópicos Avançados", Genericos.Executar},
 
             });
 

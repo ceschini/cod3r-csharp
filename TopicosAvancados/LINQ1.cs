@@ -37,7 +37,16 @@ namespace curso_csharp.TopicosAvancados
             }
 
             Console.WriteLine("\n== Aprovados (por Idade) =========");
-            var alunosAprovados = 
+            var alunosAprovados =
+                from aluno in alunos
+                where aluno.Nota >= 7
+                orderby aluno.Idade
+                select aluno.Nome;
+
+            foreach (var aluno in alunosAprovados)
+            {
+                Console.WriteLine(aluno);
+            }
         }
     }
 }
